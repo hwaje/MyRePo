@@ -17,6 +17,12 @@ def divide(a, b):
     else:
         return "Division by zero is not allowed"
 
+def power(a, b):
+    return a ** b
+
+
+def mod(a, b):
+    return a%b
 
 # 테스트 코드
 if __name__ == '__main__':
